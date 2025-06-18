@@ -17,7 +17,7 @@ class Database:
             prefix = "@OnAnimeSeries",
             suffix = "@OnAnimeSeries",
             metadata = true,
-            metadata_code = "By :- @OnAnimeSeries
+            metadata_code = "By :- @OnAnimeSeries"
         )
 
     async def add_user(self, b, m):
