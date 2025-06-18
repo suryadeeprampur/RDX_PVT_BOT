@@ -12,7 +12,7 @@ async def start(client, message):
     await jishubotz.add_user(client, message)                
     button = InlineKeyboardMarkup([
         [InlineKeyboardButton('🔊 Updates', url='https://t.me/OnAnimeSeries'),
-        InlineKeyboardButton('♻️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/MadflixBotz')],
+        InlineKeyboardButton('♻️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/VoidZero_Dev')],
         [InlineKeyboardButton('❤️‍🩹 About', callback_data='about'),
         InlineKeyboardButton('🛠️ Help', callback_data='help')],
         [InlineKeyboardButton("👨‍💻 Developer 🧑‍💻", url='https://t.me/VoidZero_Dev')]
@@ -32,7 +32,7 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup([
                 [InlineKeyboardButton('🔊 Updates', url='https://t.me/OnAnimeSeries'),
-                InlineKeyboardButton('♻️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/MadflixBotz')],
+                InlineKeyboardButton('♻️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/VoidZero_Dev')],
                 [InlineKeyboardButton('❤️‍🩹 About', callback_data='about'),
                 InlineKeyboardButton('🛠️ Help', callback_data='help')],
                 [InlineKeyboardButton("👨‍💻 Developer 🧑‍💻", url='https://t.me/VoidZero_Dev')]
