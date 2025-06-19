@@ -6,8 +6,8 @@ routes = web.RouteTableDef()
 async def root_route_handler(request):
     return web.json_response({
         "status": "success",
-        "message": "Welcome to the @OnAnimeSeries Rename Bot service.",
-        "developer": "@VoidZero_Dev"
+        "message": "Welcome to the @RDX_PVT_LTD Rename Bot service.",
+        "developer": "@RDX_PVT_LTD"
     })
 
 
