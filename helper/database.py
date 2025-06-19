@@ -16,7 +16,7 @@ class Database:
             caption = None,
             prefix = "@OnAnimeSeries",
             suffix = "@OnAnimeSeries",
-            metadata = true,
+            metadata = True,
             metadata_code = "By :- @OnAnimeSeries"
         )
 
