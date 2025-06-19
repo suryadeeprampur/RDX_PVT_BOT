@@ -136,5 +136,5 @@
 ---
 
 ### ☕ SUPPORT ME
-- [PhonePe](https://graph.org/file/6822df5af3a2e80637172.jpg)
-- [UPI](https://graph.org/file/b831109be4acff5c966d2.jpg)
+- [PhonePe](https://envs.sh/3v.jpg)
+- [UPI](https://envs.sh/3v.jpg)
