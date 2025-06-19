@@ -14,10 +14,10 @@ class Database:
             _id=int(id),                                   
             file_id = None,
             caption = None,
-            prefix = "@OnAnimeSeries",
-            suffix = "@OnAnimeSeries",
+            prefix = "@RDX_PVT_LTD",
+            suffix = "@RDX_PVT_LTD",
             metadata = True,
-            metadata_code = "By :- @OnAnimeSeries"
+            metadata_code = "By :- @RDX_PVT_LTD"
         )
 
     async def add_user(self, b, m):
