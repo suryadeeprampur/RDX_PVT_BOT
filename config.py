@@ -49,7 +49,7 @@ class Txt(object):
 ├<b>📕 Library</b> : <a href=https://github.com/pyrogram>Pyrogram</a>
 ├<b>✏️ Language</b> : <a href=https://www.python.org>Python 3</a>
 ├<b>💾 Database</b> : <a href=https://cloud.mongodb.com>Mongo DB</a>
-├<b>📊 Build Version</b> : <a href=https://t.me/VoidZero_Dev>Rename v4.7.0</a></b>     
+├<b>📊 Build Version</b> : <a href=https://t.me/RDX1444>Rename v4.7.0</a></b>     
 ╰───────────────⍟
 """
 
