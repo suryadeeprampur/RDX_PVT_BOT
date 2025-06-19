@@ -8,3 +8,4 @@ aiohttp
 pytz
 pyromod
 gunicorn
+ffmpeg
