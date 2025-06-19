@@ -39,13 +39,13 @@ class Txt(object):
 
 ➻ This Bot Also Supports Custom Thumbnail And Custom Caption.
 
-<b>Bot Is Made By :</b> @OnAnimeSeries"""
+<b>Bot Is Made By :</b> @RDX_PVT_LTD"""
 
     ABOUT_TXT = """
 ╭───────────────⍟
 ├<b>🤖 My Name</b> : {}
-├<b>🖥️ Developer</b> : <a href=https://t.me/OnAnimeSeries>OnAnimeSeries</a> 
-├<b>👨‍💻 Programer</b> : <a href=https://t.me/VoidZero_Dev>VoidZero</a>
+├<b>🖥️ Developer</b> : <a href=https://t.me/RDX_PVT_LTD>RDX_PVT_LTD</a> 
+├<b>👨‍💻 Programer</b> : <a href=https://t.me/RDX1444>RDX</a>
 ├<b>📕 Library</b> : <a href=https://github.com/pyrogram>Pyrogram</a>
 ├<b>✏️ Language</b> : <a href=https://www.python.org>Python 3</a>
 ├<b>💾 Database</b> : <a href=https://cloud.mongodb.com>Mongo DB</a>
@@ -75,12 +75,12 @@ class Txt(object):
 ➪ /set_prefix - Set your custom prefix.
 ➪ /see_prefix - View your current prefix.
 ➪ /del_prefix - Delete your prefix.
-➪ <b>Example:</b> <code>/set_prefix @OnAnimeSeries</code>
+➪ <b>Example:</b> <code>/set_prefix @RDX_PVT_LTD</code>
 
 ➪ /set_suffix - Set your custom suffix.
 ➪ /see_suffix - View your current suffix.
 ➪ /del_suffix - Delete your suffix.
-➪ <b>Example:</b> <code>/set_suffix @OnAnimeSeries</code>
+➪ <b>Example:</b> <code>/set_suffix @RDX_PVT_LTD</code>
 
 📝 <b><u>How To Rename A File</u></b>
 
@@ -99,7 +99,7 @@ class Txt(object):
 🔧 <b><u>Need Help?</u></b>
 
 𝗔𝗻𝘆 𝗼𝘁𝗵𝗲𝗿 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀 𝗼𝗿 𝗵𝗲𝗹𝗽:
-<a href="https://t.me/VoidZero_Dev">Contact Developer</a>
+<a href="https://t.me/RDX1444">Contact Developer</a>
 """
 
     PROGRESS_BAR = """\n
@@ -114,7 +114,7 @@ class Txt(object):
 
 If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
 
-<b>🛍 Message:</b> `@VoidZero_Dev`
+<b>🛍 Message:</b> `@RDX1444`
 """
 
 
@@ -122,9 +122,9 @@ If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upt
 
 For Example :-
 
-<code>By :- @VoidZero_Dev</code>
+<code>By :- @RDX_PVT_LTD</code>
 
-💬 For Any Help Contact @VoidZero_Dev
+💬 For Any Help Contact @RDX_PVT_LTD
 """
 
 
