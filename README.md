@@ -1,105 +1,140 @@
-<img src="https://graph.org/file/d3dde3480b703b3f34e77.jpg" alt="logo" target="/blank">
+
+<img src="https://graph.org/file/d3dde3480b703b3f34e77.jpg" alt="logo" target="_blank">
 
 <h1 align="center">
- <b><a href="https://t.me/OnAnimeSeriesbot" target="/blank"> Rename Bot 2GB </a></>
+ <b><a href="https://t.me/OnAnimeSeriesbot" target="_blank"> Rename Bot 2GB </a></b>
 </h1>
 
 <p align="center">🩵 Thanks for Being Here 🩵</p>
 
+---
 
-### CONFIGS VARIABLES
+### ⚙️ CONFIG VARIABLES
 
-* `BOT_TOKEN`  - Get bot token from <a href="https://t.me/BotFather" target="/blank">Bot Father</a>
-* `API_ID` - Get api id from <a href="https://my.telegram.org" target="/blank">Telegram Auth</a>
-* `API_HASH` - Get api hash from <a href="https://my.telegram.org" target="/blank">Telegram Auth</a>
-* `ADMIN` - Admin user id
-* `LOG_CHANNEL` - Bot Log Channel ⚠️ Id startswith -100 must.
-* `DATABASE_URL`  - Mongo Database URL from <a href="https://cloud.mongodb.com" target="/blank">Mongo DB</a>
-* `DATABASE_NAME`  - Your database name from mongoDB. `Optional`
-* `FORCE_SUBS` - Your force sub channel username without @ `Optional`
-* `START_PIC` - Start message photo. `Optional`
+* `BOT_TOKEN` - Get it from [@BotFather](https://t.me/BotFather)
+* `API_ID` - Get it from [Telegram API](https://my.telegram.org)
+* `API_HASH` - Get it from [Telegram API](https://my.telegram.org)
+* `ADMIN` - Your Telegram user ID
+* `LOG_CHANNEL` - Bot Log Channel (Must start with `-100`)
+* `DATABASE_URL` - Get from [MongoDB Atlas](https://cloud.mongodb.com)
+* `DATABASE_NAME` - Mongo database name (Optional)
+* `FORCE_SUBS` - Force subscribe channel (without `@`) (Optional)
+* `START_PIC` - Start message image URL (Optional)
 
+---
 
+### 🚀 DEPLOYMENT SUPPORT
 
-### DEPLOYEMENT SUPPORT
-
-<summary>Deploy To Koyeb</summary>
-<p>
-<br>                 
-<a target="/blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/ibrahimkhan008/Rename-Bot-2GB&branch=main&name=rename-bot-2gb" >
+<summary>Deploy to Koyeb</summary>
+<p><br>                 
+<a target="_blank" href="https://app.koyeb.com/deploy?name=rename-bot-2gb&repository=ibrahimkhan008%2FRename-Bot-2GB&branch=main&builder=dockerfile&instance_type=free&instances_min=0&autoscaling_sleep_idle_delay=300&ports=8080%3Bhttp%3B%2F&hc_protocol%5B8080%5D=tcp&hc_grace_period%5B8080%5D=5&hc_interval%5B8080%5D=30&hc_restart_limit%5B8080%5D=3&hc_timeout%5B8080%5D=5&hc_path%5B8080%5D=%2F&hc_method%5B8080%5D=get">
   <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy">
 </a>
 </p>
 
+---
 
-<summary>Deploy To Heroku</summary>
-<p>
-<br>
-<a href="https://heroku.com/deploy?template=https://github.com/ibrahimkhan008/Rename-Bot-2GB">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-</a>
-</p>
+### 📦 FEATURES
 
+- Rename any file quickly
+- Permanent thumbnail support
+- Force join to channel support
+- Broadcast to users (admin only)
+- Custom caption, prefix, suffix
+- Koyeb/Heroku/Railway deployable
+- Docker-based deployment
+- Developer support available 🔥
 
+---
 
-
-
-### FEATURES
- - Renames very fast .
- - Permanent Thumbnail support.
- - Force join for the user for use.
- - Supports Broadcasts.
- - Set custom caption.
- - Has a custom Start-up pic.
- - Force subscribe available.
- - Supports ulimited renaming at a time.
- - Deploy to Koyeb + Heroku + Railway.
- - Developer Service 24x7. 🔥
-
-
-
-### ALL COMMANDS
+### 📜 COMMANDS
 
 ```
-start - Check if the bot is running.
-viewthumb - To view current thumbnail.
-delthumb - To delete current thumbnail.
-set_caption - set a custom caption.
-see_caption - see your custom caption.
-del_caption - delete custom caption.
-metadata - To change your metadata
-ping - To check bot ping.
-donate - To support developer.
-set_prefix - Set Your Prefix
-see_prefix - See Your Prefix
-del_prefix - Delete Your Prefix
-set_suffix - Set Your Suffix
-see_suffix - See Your Suffix
-del_suffix - Delete Your Suffix
-restart - To restart the bot [FOR ADMINS USE ONLY]
-broadcast - Message Broadcast command [FOR ADMINS USE ONLY].
-status - Check bot status [FOR ADMINS USE ONLY].
+/start - Start the bot
+/viewthumb - View current thumbnail
+/delthumb - Delete current thumbnail
+/set_caption - Set a custom caption
+/see_caption - View your caption
+/del_caption - Delete your caption
+/metadata - Change your file metadata
+/ping - Check bot ping
+/donate - Support the developer
+/set_prefix - Set your filename prefix
+/see_prefix - View your prefix
+/del_prefix - Delete your prefix
+/set_suffix - Set your filename suffix
+/see_suffix - View your suffix
+/del_suffix - Delete your suffix
+/restart - Restart bot (Admins only)
+/broadcast - Broadcast message (Admins only)
+/status - Check bot status (Admins only)
 ```
 
+---
 
-### ❤️ FIXED BY @VoidZero_Dev ❤️
+### ✅ KOYEB DEPLOYMENT GUIDE
 
-- [VoidZero](https://t.me/VoidZero)
+```
+🔧 Requirements:
+- GitHub account
+- Koyeb account
+- Telegram Bot Token
+- MongoDB URI (Atlas or other)
+```
 
-### ❤️ RESPECTING ❤️
+1. Fork this repo.
+2. Go to [Koyeb](https://app.koyeb.com) and click **Create App**.
+3. Select GitHub → choose this repo and branch.
+4. Under **Builder**, select `Dockerfile`.
+   - Dockerfile location: `./Dockerfile`
+   - Work directory: `.`
+
+5. Add these environment variables:
+
+| Key              | Value                          |
+|------------------|--------------------------------|
+| `BOT_TOKEN`      | Your Telegram bot token        |
+| `API_ID`         | Telegram API ID                |
+| `API_HASH`       | Telegram API HASH              |
+| `ADMIN`          | Your Telegram user ID          |
+| `DATABASE_URL`   | Your MongoDB URI               |
+| `DATABASE_NAME`  | (Optional) Database name       |
+| `LOG_CHANNEL`    | Channel ID starting with -100  |
+| `FORCE_SUBS`     | (Optional) Channel username    |
+| `START_PIC`      | (Optional) Start photo URL     |
+
+✅ **Important:** Make sure Koyeb port is set to `8080`.
+
+6. Click **Deploy** and wait for the build to finish.
+
+7. Later changes to tokens/configs? Go to **Settings → Environment Variables → Redeploy without Rebuild**.
+
+---
+
+### 🛠 FIXED & ENHANCED BY @VoidZero_Dev
+
+- FFmpeg not found → Docker image fixed ✅  
+- Metadata command improved
+- Full support for prefix/suffix customization
+- Clean log tracing
+- Secure ENV-based config
+
+---
+
+### 🤝 CREDITS
+
+- [VoidZero_Dev](https://t.me/VoidZero_Dev)
 - [JishuDeveloper](https://github.com/JishuDeveloper)
-- [Madflix Official](https://github.com/jishusinha) 
-- [lntechnical](https://github.com/lntechnical2)
+- [Madflix Official](https://github.com/jishusinha)
+- [lntechnical2](https://github.com/lntechnical2)
 
-### 😍 BOTS CHANNEL 😍
-- [Madflix Botz](https://t.me/MadflixBotz)
-- [Jishu Botz](https://t.me/JishuBotz)
+---
 
-### 💕 CONTACT DEVELOPER 💕
-- [Jishu Developer](https://t.me/JishuDeveloper)
-- [Madflix Official](https://t.me/MadflixSupport)
+### 📢 BOT CHANNEL
+- [OnAnimeSeries](https://t.me/OnAnimeSeries)
 
-### ☕ BUY ME A COFFEE ☕
-- [PayPal](https://paypal.me/jishudeveloper/2.50USD)
+---
+
+### ☕ SUPPORT ME
 - [PhonePe](https://graph.org/file/6822df5af3a2e80637172.jpg)
 - [UPI](https://graph.org/file/b831109be4acff5c966d2.jpg)
