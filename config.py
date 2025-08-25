@@ -29,7 +29,8 @@ class Config(object):
 
 class Txt(object):
     # part of text configuration
-    START_TXT = """Hello {} 👋 
+    START_TXT = """<b>
+Hello {} 👋 
 
 ➻ This Is An Advanced And Yet Powerful Rename Bot.
 
@@ -39,20 +40,20 @@ class Txt(object):
 
 ➻ This Bot Also Supports Custom Thumbnail And Custom Caption.
 
-<b>Bot Is Made By :</b> @RDX_PVT_LTD"""
+Bot Is Made By : @RDX_PVT_LTD
+</b>"""
 
-    ABOUT_TXT = """
+    ABOUT_TXT = """<b>
 ╭───────────────⍟
-├<b>🤖 My Name</b> : {}
-├<b>🖥️ Developer</b> : <a href=https://t.me/RDX_PVT_LTD>RDX_PVT_LTD</a> 
-├<b>👨‍💻 Programer</b> : <a href=https://t.me/RDX1444>RDX</a>
-├<b>📕 Library</b> : <a href=https://github.com/pyrogram>Pyrogram</a>
-├<b>✏️ Language</b> : <a href=https://www.python.org>Python 3</a>
-├<b>💾 Database</b> : <a href=https://cloud.mongodb.com>Mongo DB</a>
-├<b>📊 Build Version</b> : <a href=https://t.me/RDX1444>Rename v4.7.0</a></b>     
+├ 🤖 My Name : {}
+├ 🖥️ Developer : <a href="https://t.me/RDX_PVT_LTD">RDX_PVT_LTD</a> 
+├ 👨‍💻 Programer : <a href="https://t.me/RDX1444">RDX</a>
+├ 📕 Library : <a href="https://github.com/pyrogram">Pyrogram</a>
+├ ✏️ Language : <a href="https://www.python.org">Python 3</a>
+├ 💾 Database : <a href="https://cloud.mongodb.com">Mongo DB</a>
+├ 📊 Build Version : <a href="https://t.me/RDX1444">Rename v4.7.0</a>
 ╰───────────────⍟
-"""
-
+</b>"""
     HELP_TXT = """
 🌌 <b><u>How To Set Thumbnail</u></b>
 
